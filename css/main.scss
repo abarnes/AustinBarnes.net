@@ -1,0 +1,95 @@
+@import "_bootstrap.scss";
+
+body {
+  background:url(../img/bg6.png);
+  font-family:'open sans','arial',sans-serif;
+}
+
+/*---- header ----*/
+#header {
+  padding:50px 0 30px;
+
+  ul.socialicons {
+    list-style: none;
+    float:right;
+    li {
+      float: left;
+      display: inline;
+      margin: 0;
+      padding: 0;
+      margin-right: 2px;
+      &:last-child {
+        margin-right:0;
+      }
+
+      .social-text {
+        float: left;
+        padding: 7px;
+        height: 30px;
+        background-color: #222;
+        color: #FFF;
+        font-size: 12px;
+        &:hover {
+          text-decoration:none;
+          cursor:default;
+        }
+      }
+
+      @mixin social-icon($img) {
+        float: left;
+        width:30px;
+        height:30px;
+        background:#222 url($img) no-repeat 5px 5px;
+      }
+      .social-facebook {
+        @include social-icon('../img/social_facebook.png');
+      }
+      .social-in {
+        @include social-icon('../img/social_in.png');
+      }
+      .social-facebook:hover {
+        background-color:#3b5998;
+      }
+      .social-in:hover {
+        background-color:#0075a1;
+      }
+
+    }
+  }
+}
+
+/*---- main content ----*/
+#content {
+  background-color: #FFF;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
+  #profile {
+    background-color:$brand-primary;
+    padding:25px;
+
+    .photo-inner {
+      float: left;
+      background: url(../img/photo-inner.png) no-repeat;
+      width: 192px;
+      height: 212px;
+      padding: 12px 0 0 20px;
+    }
+    h1 {
+      font-weight: 900;
+      color: #FFF;
+      line-height: 34px;
+      margin-top: 8px;
+    }
+    h3 {
+      margin-top: 5px;
+      font-size: 18px;
+      color: #FFF;
+      line-height: 18px;
+    }
+    p {
+
+    }
+  }
+}
