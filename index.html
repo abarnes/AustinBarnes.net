@@ -31,7 +31,13 @@
     <div class="container">
 
         <div class="row" id="header">
-            <div class="col-xs-12">
+            <div class="col-sm-8">
+                <div id="logo">
+                    <h2>AUSTIN BARNES</h2>
+                    <h4>FULL STACK WEB DEVELOPER</h4>
+                </div>
+            </div>
+            <div class="col-sm-4">
                 <ul class="socialicons">
                     <li><a href="javascript:void(0);" class="social-text">SOCIAL PROFILES</a></li>
                     <li><a href="https://www.facebook.com/AustinBarnes.net" class="social-facebook"></a></li>
@@ -40,18 +46,48 @@
             </div>
         </div>
 
-        <div id="content">
+        <div id="content" class="row">
             <div class="row" id="profile">
                 <div class="col-sm-6">
                     <div class="photo-inner"><img src="img/photo.jpg" height="186" width="153"></div>
                     <h1>AUSTIN BARNES</h1>
-                    <h3>WEB DEVELOPER &amp; ENTREPRENEUR</h3>
+                    <h3>FULL STACK WEB DEVELOPER</h3>
                     <p>I work with companies to bridge the gap between the business world and the technical world, and enjoy working with start-up companies.</p>
+                    <br style="clear:both;">
                 </div>
                 <div class="col-sm-6">
-
+                    <ul class="personal-info">
+                        <li><label>Name</label><span>Austin Barnes</span></li>
+                        <li><label>Location</label><span>Knoxville, TN</span></li>
+                        <li><label>Email</label><span>austin@austinbarnes.net</span></li>
+                        <li><label>Phone</label><span>214 794 5328</span></li>
+                        <li><label>Website</label><span>http://austinbarnes.net</span></li>
+                    </ul>
                 </div>
             </div>
+        </div>
+
+        <div class="row" id="nav">
+            <div class="col-xs-12">
+                <ul class="tabs">
+                    <li class="tmenu active"><a href="#profile" class="tab-profile active" data-link="profile">Profile</a></li>
+                    <li class="tmenu"><a href="#resume" class="tab-resume" data-link="resume">Resume</a></li>
+                    <li class="tmenu"><a href="#portfolio" class="tab-portfolio" data-link="portfolio">Portfolio</a></li>
+                    <li class="tmenu"><a href="#contact" class="tab-contact" data-link="contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row hidden-block" id="resume">
+            <h2>Resume</h2>
+        </div>
+
+        <div class="row hidden-block" id="portfolio">
+            <h2>Portfolio</h2>
+        </div>
+
+        <div class="row hidden-block" id="contact">
+            <h2>Contact</h2>
         </div>
 
     </div>
@@ -61,5 +97,33 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $('.tabs li a').hover(
+        function() {
+            $(this).stop().animate({ marginTop: "-7px" }, 200);
+        },function(){
+            $(this).stop().animate({ marginTop: "0px" }, 300);
+        }
+    );
+    $('.tmenu a').click(function(){
+        var speed = 500;
+        var name = $(this).attr('data-link');
+        $('.tabs .active').removeClass('active');
+        $(this).addClass('active').parents('li.tmenu').addClass('active');
+        if ($('.hidden-block:visible').length) {
+            if (name=="profile") $('#logo').hide(speed);
+            $('.hidden-block:visible').slideUp(speed,function(){
+                $('#'+name).slideDown(speed);
+            });
+        } else {
+            $('#logo').show(speed);
+            $('#profile').slideUp(speed,function(){
+                $('#'+name).slideDown(speed);
+            });
+        }
+        return false;
+    });
+</script>
 </body>
 </html>
