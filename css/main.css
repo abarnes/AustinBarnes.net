@@ -5639,14 +5639,18 @@ body {
 ul {
   list-style: none; }
 
-label {
-  color: #a87f09;
-  background-color: #f4c024;
-  float: left;
-  padding: 4px 7px;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px; }
+h3.main-heading {
+  background-image: url("../img/plus.png");
+  background-repeat: no-repeat;
+  background-position: left 2px;
+  margin: 15px 2px; }
+  h3.main-heading span {
+    border-bottom: 1px solid #999;
+    padding-bottom: 7px;
+    color: #333;
+    line-height: 16px;
+    margin-left: 28px;
+    display: block; }
 
 /*---- header ----*/
 #header {
@@ -5750,6 +5754,14 @@ label {
           float: right;
           width: 210px;
           color: #a87f09; }
+    #content #profile label {
+      color: #a87f09;
+      background-color: #f4c024;
+      float: left;
+      padding: 4px 7px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px; }
 
 #nav {
   height: 100px;
@@ -5802,5 +5814,128 @@ label {
   background-color: #ffffff;
   display: none;
   padding: 4%; }
+
+#resume ul.timeline {
+  padding: 10px 0 0 0; }
+  #resume ul.timeline li {
+    margin-bottom: 20px; }
+    #resume ul.timeline li .timelineUnit {
+      line-height: 17px;
+      margin-left: 11px;
+      color: #444;
+      font-size: 13px;
+      border-left: 1px solid #fadc66;
+      padding-left: 15px; }
+      #resume ul.timeline li .timelineUnit h4 {
+        line-height: 24px;
+        font-size: 15px;
+        color: #444; }
+      #resume ul.timeline li .timelineUnit h5 {
+        line-height: 18px;
+        font-size: 13px;
+        color: #999; }
+      #resume ul.timeline li .timelineUnit p {
+        color: #666;
+        font-size: 12px;
+        margin-top: 5px; }
+      #resume ul.timeline li .timelineUnit .timelineDate {
+        line-height: 17px;
+        color: #f4c024;
+        font-size: 14px;
+        margin-left: 10px;
+        font-weight: normal;
+        padding: 2px 6px;
+        float: right; }
+#resume ul.skills {
+  margin-top: 25px;
+  overflow: hidden;
+  height: 100%;
+  padding: 0; }
+  #resume ul.skills li {
+    margin-bottom: 15px;
+    float: left;
+    padding-left: 30px; }
+    #resume ul.skills li h3, #resume ul.skills li h4 {
+      width: 140px;
+      float: left;
+      color: #444;
+      margin: 0; }
+    #resume ul.skills li h3 {
+      font-size: 19px; }
+    #resume ul.skills li h4 {
+      font-size: 15px; }
+    #resume ul.skills li .rat0, #resume ul.skills li .rat1, #resume ul.skills li .rat2, #resume ul.skills li .rat3, #resume ul.skills li .rat4, #resume ul.skills li .rat5, #resume ul.skills li .rat6, #resume ul.skills li .rat7 {
+      width: 123px;
+      height: 14px;
+      float: left; }
+    #resume ul.skills li .rat0 {
+      background: url(../img/rats.png) no-repeat; }
+    #resume ul.skills li .rat1 {
+      background: url(../img/rats.png) no-repeat 0px -14px; }
+    #resume ul.skills li .rat2 {
+      background: url(../img/rats.png) no-repeat 0px -28px; }
+    #resume ul.skills li .rat3 {
+      background: url(../img/rats.png) no-repeat 0px -42px; }
+    #resume ul.skills li .rat4 {
+      background: url(../img/rats.png) no-repeat 0px -56px; }
+    #resume ul.skills li .rat5 {
+      background: url(../img/rats.png) no-repeat 0px -70px; }
+    #resume ul.skills li .rat6 {
+      background: url(../img/rats.png) no-repeat 0px -84px; }
+    #resume ul.skills li .rat7 {
+      background: url(../img/rats.png) no-repeat 0px -98px; }
+
+#contact #map {
+  height: 300px;
+  margin-bottom: 25px;
+  width: 100%;
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #CCC; }
+#contact ul {
+  float: left;
+  margin-left: 11px;
+  border-left: 1px solid #fadc66;
+  padding-left: 18px; }
+  #contact ul li {
+    font-size: 13px;
+    line-height: 20px;
+    color: #666;
+    overflow: hidden; }
+#contact #contactform {
+  padding-left: 30px; }
+  #contact #contactform .contact-button {
+    color: #fff;
+    background-color: #666;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px; }
+    #contact #contactform .contact-button:hover {
+      background-color: #fdc62a; }
+  #contact #contactform p {
+    margin-bottom: 15px; }
+    #contact #contactform p label {
+      display: block;
+      color: #999;
+      margin-bottom: 8px;
+      font-size: 13px; }
+    #contact #contactform p .input {
+      line-height: 20px;
+      height: 34px;
+      width: 60%; }
+    #contact #contactform p .textarea {
+      width: 95%; }
+    #contact #contactform p .input, #contact #contactform p .textarea {
+      padding: 6px;
+      background-color: #f5f5f5;
+      border: 1px solid #CCC;
+      color: #999;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      font-size: 13px; }
 
 /*# sourceMappingURL=main.css.map */
