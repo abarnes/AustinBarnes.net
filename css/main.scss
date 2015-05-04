@@ -325,6 +325,9 @@ h3.main-heading {
   }
 }
 #portfolio {
+  .force-width {
+    width:100% !important;
+  }
 
 }
 #contact {
@@ -335,7 +338,6 @@ h3.main-heading {
     border-bottom: 1px solid #CCC;
     border-top: 1px solid #CCC;
   }
-  s
   ul {
     float: left;
     margin-left: 11px;
