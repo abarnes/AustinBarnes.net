@@ -1,4 +1,4 @@
-<div class="row hidden-block" id="portfolio">
+<div class="row normal-margins hidden-block" id="portfolio">
     <h3 class="main-heading"><span>Portfolio</span></h3>
 
     <!-- Vendevor -->

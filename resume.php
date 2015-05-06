@@ -1,4 +1,4 @@
-<div class="row hidden-block" id="resume">
+<div class="row normal-margins hidden-block" id="resume">
     <div class="col-sm-7">
         <h3 class="main-heading"><span>Employment</span></h3>
         <ul class="timeline">
@@ -71,13 +71,6 @@
                     <h4>Point of Sale System<span class="timelineDate">2011-2012</span></h4>
                     <h5>Barnes Point of Sale Systems</h5>
                     <p>Developed an innovative point of sale system targeted at restaurants and small businesses.  The system is web-based and accessible through any device with a web browser, as well as through smartphone apps.</p>
-                </div>
-            </li>
-            <li>
-                <div class="timelineUnit">
-                    <h4>Non-profit CMS System<span class="timelineDate">2011</span></h4>
-                    <h5>Baylor University</h5>
-                    <p>Developed a CMS system for a local non-profit organization to easily track and manage donors and increase donation flows.</p>
                 </div>
             </li>
             <div class="clear"></div>

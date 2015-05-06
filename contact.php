@@ -1,4 +1,4 @@
-<div class="row hidden-block" id="contact">
+<div class="row normal-margins hidden-block" id="contact">
     <div id="map"></div>
     <div class="col-sm-4">
         <h3 class="main-heading"><span>Contact info</span></h3>

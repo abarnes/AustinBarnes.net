@@ -32,7 +32,7 @@
 <body>
     <div class="container">
 
-        <div class="row" id="header">
+        <div class="row normal-margins" id="header">
             <div class="col-sm-8">
                 <div id="logo">
                     <h2>AUSTIN BARNES</h2>
@@ -48,7 +48,8 @@
             </div>
         </div>
 
-        <div id="content" class="row">
+        <div id="content" class="row normal-margins">
+
             <div class="row" id="profile">
                 <div class="col-sm-6">
                     <div class="photo-inner"><img src="img/photo.jpg" height="186" width="153"></div>
@@ -69,24 +70,26 @@
                     </ul>
                 </div>
             </div>
-        </div>
 
-        <div class="row" id="nav">
-            <div class="col-xs-12">
-                <ul class="tabs">
-                    <li class="tmenu active"><a href="#profile" class="tab-profile active" data-link="profile">Profile</a></li>
-                    <li class="tmenu"><a href="#resume" class="tab-resume" data-link="resume">Resume</a></li>
-                    <li class="tmenu"><a href="#portfolio" class="tab-portfolio" data-link="portfolio">Portfolio</a></li>
-                    <li class="tmenu"><a href="#contact" class="tab-contact" data-link="contact">Contact</a></li>
-                </ul>
+
+            <div class="row normal-margins" id="nav">
+                <div class="col-xs-12">
+                        <ul class="tabs">
+                            <li class="tmenu active"><a href="#profile" class="tab-profile active" data-link="profile">Profile</a></li>
+                            <li class="tmenu"><a href="#resume" class="tab-resume" data-link="resume">Resume</a></li>
+                            <li class="tmenu"><a href="#portfolio" class="tab-portfolio" data-link="portfolio">Portfolio</a></li>
+                            <li class="tmenu"><a href="#contact" class="tab-contact" data-link="contact">Contact</a></li>
+                        </ul>
+                </div>
             </div>
+
+            <?php include('resume.php'); ?>
+
+            <?php include('portfolio.php'); ?>
+
+            <?php include('contact.php'); ?>
+
         </div>
-
-        <?php include('resume.php'); ?>
-
-        <?php include('portfolio.php'); ?>
-
-        <?php include('contact.php'); ?>
 
     </div>
 
@@ -95,6 +98,42 @@
     <script type="text/javascript" src="js/jquery.gmap.min.js"></script>
 
     <script type="text/javascript">
+        $(document).ready(function(){
+            //disable jQuery mobile "loading" message because jQuery mobile is only used for swipe actions
+            $.mobile.loading().hide();
+
+            //nav bar hover effect
+            $('.tabs li a').hover(
+                function() {
+                    $(this).stop().animate({ marginTop: "-7px" }, 200);
+                },function(){
+                    $(this).stop().animate({ marginTop: "0px" }, 300);
+                }
+            );
+
+            //navigation function
+            $('.tmenu a').click(function(){
+                var speed = 500;
+                var name = $(this).attr('data-link');
+                $('.tabs .active').removeClass('active');
+                $(this).addClass('active').parents('li.tmenu').addClass('active');
+                if ($('.hidden-block:visible').length) {
+                    if (name=="profile") $('#logo').hide(speed);
+                    $('.hidden-block:visible').slideUp(speed,function(){
+                        $('#'+name).slideDown(speed);
+                    });
+                } else {
+                    $('#logo').show(speed);
+                    $('#profile').slideUp(speed,function(){
+                        $('#'+name).slideDown(speed);
+                        if (name=="contact") map();
+                    });
+                }
+                return false;
+            });
+
+        });
+
         $('.tabs li a').hover(
             function() {
                 $(this).stop().animate({ marginTop: "-7px" }, 200);
@@ -111,27 +150,9 @@
                 ]
             });
         };
-        $('.tmenu a').click(function(){
-            var speed = 500;
-            var name = $(this).attr('data-link');
-            $('.tabs .active').removeClass('active');
-            $(this).addClass('active').parents('li.tmenu').addClass('active');
-            if ($('.hidden-block:visible').length) {
-                if (name=="profile") $('#logo').hide(speed);
-                $('.hidden-block:visible').slideUp(speed,function(){
-                    $('#'+name).slideDown(speed);
-                });
-            } else {
-                $('#logo').show(speed);
-                $('#profile').slideUp(speed,function(){
-                    $('#'+name).slideDown(speed);
-                    if (name=="contact") map();
-                });
-            }
-            return false;
-        });
 
-        var $contactform 	= $('#contactform'),
+
+        /*var $contactform 	= $('#contactform'),
         $success		= 'Your message has been sent. Thank you!';
 
         $contactform.submit(function(){
@@ -154,7 +175,7 @@
                 }
             });
             return false;
-        });
+        });*/
     </script>
 </body>
 </html>

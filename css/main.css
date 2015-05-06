@@ -5648,8 +5648,10 @@ button.close {
   position: relative; }
 
 body {
-  background: url(../img/bg6.png);
-  padding-bottom: 30px; }
+  background: url(../img/bg6.png); }
+
+div.normal-margins {
+  margin: auto; }
 
 ul {
   list-style: none; }
@@ -5722,15 +5724,15 @@ h3.main-heading {
 
 /*---- main content ----*/
 #content {
-  /*background-color:$brand-primary;
+  background-color: #fdd355;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
   -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;*/
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
   background-image: url(../img/header-shadow.png), url(../img/header-bg.png);
   background-position: center bottom, left top;
   background-repeat: repeat-x;
-  overflow: hidden;
-  background-color: #fdd355; }
+  background-color: #fdd355;
+  margin-bottom: 30px; }
   #content #profile {
     padding: 25px; }
     #content #profile .photo-inner {
@@ -5744,8 +5746,11 @@ h3.main-heading {
         #content #profile .photo-inner {
           float: left;
           margin: 0; } }
+      @media (min-width: 992px) {
+        #content #profile .photo-inner {
+          margin-bottom: 20px; } }
     #content #profile h1 {
-      font-size: 32px;
+      font-size: 30px;
       text-align: center;
       font-weight: 900;
       color: #FFF;
@@ -5805,26 +5810,34 @@ h3.main-heading {
   position: relative; }
   #nav .tabs {
     height: 116px;
-    position: absolute;
-    margin-top: -14px;
-    padding-left: 130px;
+    padding: 0px;
+    position: relative;
+    margin: -16px auto -2px auto;
+    width: 300px;
     z-index: 100; }
+    @media (min-width: 768px) {
+      #nav .tabs {
+        width: 460px; } }
     #nav .tabs li {
       float: left;
       height: 116px; }
-      #nav .tabs li.active {
-        background: url("../img/tab-hover.png") no-repeat; }
+      @media (min-width: 768px) {
+        #nav .tabs li.active {
+          background: url("../img/tab-hover.png") no-repeat; } }
       #nav .tabs li > a {
         padding-top: 80px;
-        width: 115px;
+        width: 75px;
+        font-size: 14px;
         height: 35px;
         display: block;
         background-repeat: no-repeat;
-        font-size: 16px;
         color: #b9b9b9;
-        text-align: center; }
-        #nav .tabs li > a:hover {
-          text-decoration: none; }
+        text-align: center;
+        text-decoration: none; }
+        @media (min-width: 768px) {
+          #nav .tabs li > a {
+            width: 115px;
+            font-size: 16px; } }
         #nav .tabs li > a.tab-profile {
           background-image: url("../img/profile-icon.png");
           background-position: center 30px; }

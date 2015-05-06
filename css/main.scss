@@ -3,7 +3,10 @@
 
 body {
   background:url(../img/bg6.png);
-  padding-bottom:30px;
+}
+div.normal-margins {
+  margin:auto;
+
 }
 ul {
   list-style: none;
@@ -97,16 +100,16 @@ h3.main-heading {
 
 /*---- main content ----*/
 #content {
-  /*background-color:$brand-primary;
+  background-color:$brand-primary;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
   -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;*/
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 
   background-image: url(../img/header-shadow.png), url(../img/header-bg.png);
   background-position: center bottom, left top;
   background-repeat: repeat-x;
-  overflow: hidden;
   background-color: #fdd355;
+  margin-bottom:30px;
 
   #profile {
     padding:25px;
@@ -117,6 +120,9 @@ h3.main-heading {
       @media (min-width: $screen-sm-min) {
         float:left;
         margin:0;
+      }
+      @media (min-width: $screen-md-min) {
+        margin-bottom:20px;
       }
       background: url(../img/photo-inner.png) no-repeat;
       width: 192px;
@@ -132,7 +138,7 @@ h3.main-heading {
     }
 
     h1 {
-      font-size:32px;
+      font-size:30px;
       @include center_text_small;
       @media (min-width: $screen-md-min) {
         font-size:36px;
@@ -197,29 +203,37 @@ h3.main-heading {
 
   .tabs {
     height: 116px;
-    position: absolute;
-    margin-top: -14px;
-    padding-left: 130px;
+    padding:0px;
+    position:relative;
+    margin:-16px auto -2px auto;
+    width:300px;
+    @media (min-width: $screen-sm-min) {
+      width:460px;
+    }
     z-index: 100;
 
     li {
       float: left;
       height: 116px;
-      &.active {
-        background: url('../img/tab-hover.png') no-repeat;
+      @media (min-width: $screen-sm-min) {
+        &.active {
+          background: url('../img/tab-hover.png') no-repeat;
+        }
       }
       > a {
         padding-top: 80px;
-        width: 115px;
+        width:75px;
+        font-size: 14px;
+        @media (min-width: $screen-sm-min) {
+          width: 115px;
+          font-size: 16px;
+        }
         height: 35px;
         display: block;
         background-repeat: no-repeat;
-        font-size: 16px;
         color: #b9b9b9;
         text-align: center;
-        &:hover {
-          text-decoration:none;
-        }
+        text-decoration:none;
 
         @mixin nav-tabs($img) {
           background-image: url('../img/' + $img + '-icon.png');
