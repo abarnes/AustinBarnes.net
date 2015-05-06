@@ -1,6 +1,7 @@
 <!--
     =================================
     Thank you for looking at my code!
+    <?php /*-- And thanks for looking at my code on Github --*/ ?>
 
     This entire site is available on Github at https://github.com/abarnes
 
@@ -20,6 +21,8 @@
     <!-- Bootstrap -->
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -85,7 +88,6 @@
 
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript" src="js/jquery.gmap.min.js"></script>
@@ -154,13 +156,6 @@
                 ]
             });
         });
-
-        $('.portfolio-item').click(function(){
-            var clicked = $(this);
-            $('.portfolio-item').not(clicked).hide(400,function(){
-                clicked.addClass('force-width');
-            });
-        })
     </script>
 </body>
 </html>

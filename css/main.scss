@@ -1,7 +1,9 @@
 @import "_bootstrap.scss";
+@import "swipe.scss";
 
 body {
   background:url(../img/bg6.png);
+  padding-bottom:30px;
 }
 ul {
   list-style: none;
@@ -328,7 +330,27 @@ h3.main-heading {
   .force-width {
     width:100% !important;
   }
-
+  .portfolio-item {
+    h2 {
+      float:left;
+    }
+    h5 {
+      float:left;
+      clear:left;
+      font-weight:600;
+    }
+    img.portfolio-icon {
+      float:right;
+      max-width:40%;
+    }
+    .details {
+      display: none;
+    }
+    div.details {
+      clear:both;
+      padding:15px 0 15px;
+    }
+  }
 }
 #contact {
   #map {
