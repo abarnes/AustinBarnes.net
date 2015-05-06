@@ -5902,20 +5902,32 @@ h3.main-heading {
 
 #portfolio .force-width {
   width: 100% !important; }
-#portfolio .portfolio-item h2 {
-  float: left; }
-#portfolio .portfolio-item h5 {
-  float: left;
-  clear: left;
-  font-weight: 600; }
-#portfolio .portfolio-item img.portfolio-icon {
-  float: right;
-  max-width: 40%; }
-#portfolio .portfolio-item .details {
-  display: none; }
-#portfolio .portfolio-item div.details {
-  clear: both;
-  padding: 15px 0 15px; }
+#portfolio .portfolio-item {
+  text-align: center; }
+  #portfolio .portfolio-item h2, #portfolio .portfolio-item h5 {
+    width: 100%; }
+  #portfolio .portfolio-item h5 {
+    font-weight: 600; }
+  #portfolio .portfolio-item img.portfolio-icon {
+    max-width: 290px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+  #portfolio .portfolio-item.force-width {
+    text-align: left; }
+    #portfolio .portfolio-item.force-width h2, #portfolio .portfolio-item.force-width h5, #portfolio .portfolio-item.force-width p.dates {
+      float: left;
+      width: auto;
+      clear: left; }
+    #portfolio .portfolio-item.force-width img.portfolio-icon {
+      float: right;
+      max-width: 40%; }
+  #portfolio .portfolio-item .details {
+    display: none; }
+  #portfolio .portfolio-item div.details {
+    clear: both;
+    padding: 15px 0 15px; }
 
 #contact #map {
   height: 300px;

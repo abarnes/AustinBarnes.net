@@ -100,6 +100,15 @@
                 $(this).stop().animate({ marginTop: "0px" }, 300);
             }
         );
+        function map(){
+            $('#map').gMap({
+                address: 'Knoxville, TN, USA',
+                zoom: 6,
+                markers: [
+                    { 'address' :'Knoxville, TN, USA' }
+                ]
+            });
+        };
         $('.tmenu a').click(function(){
             var speed = 500;
             var name = $(this).attr('data-link');
@@ -114,13 +123,14 @@
                 $('#logo').show(speed);
                 $('#profile').slideUp(speed,function(){
                     $('#'+name).slideDown(speed);
+                    if (name=="contact") map();
                 });
             }
             return false;
         });
 
         var $contactform 	= $('#contactform'),
-                $success		= 'Your message has been sent. Thank you!';
+        $success		= 'Your message has been sent. Thank you!';
 
         $contactform.submit(function(){
             $.ajax({
@@ -142,19 +152,6 @@
                 }
             });
             return false;
-        });
-
-        $(document).ready(function(){
-            var $map 				= $('#map'),
-                    $address 			= 'Knoxville, TN, USA';
-
-            $map.gMap({
-                address: $address,
-                zoom: 6,
-                markers: [
-                    { 'address' : $address }
-                ]
-            });
         });
     </script>
 </body>
