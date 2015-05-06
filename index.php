@@ -98,6 +98,17 @@
     <script type="text/javascript" src="js/jquery.gmap.min.js"></script>
 
     <script type="text/javascript">
+        function map(){
+            var address = 'Knoxville, TN, USA';
+            $('#map').gMap({
+                address: address,
+                zoom: 6,
+                markers: [
+                    { 'address' :address }
+                ]
+            });
+        };
+
         $(document).ready(function(){
             //disable jQuery mobile "loading" message because jQuery mobile is only used for swipe actions
             $.mobile.loading().hide();
@@ -111,62 +122,55 @@
                 }
             );
 
-            //navigation function
+            //handle tab navigation
             $('.tmenu a').click(function(){
-                var speed = 500;
-                var name = $(this).attr('data-link');
+                var speed = 500; //speed of transitions
+                var name = $(this).attr('data-link'); //name of clicked tab, such as "resume"
+
+                //move the "active" class to the correct tag
                 $('.tabs .active').removeClass('active');
                 $(this).addClass('active').parents('li.tmenu').addClass('active');
-                if ($('.hidden-block:visible').length) {
+
+
+                if ($('.hidden-block:visible').length) {    //currently open tab is NOT profile tab
+                    //hide name and tagline on profile page
                     if (name=="profile") $('#logo').hide(speed);
+
+                    //animate content block transition
                     $('.hidden-block:visible').slideUp(speed,function(){
                         $('#'+name).slideDown(speed);
+                        if (name=="contact") map();
                     });
-                } else {
+                } else {                                    //profile tab is currently open
                     $('#logo').show(speed);
                     $('#profile').slideUp(speed,function(){
+                        //show name & tagline above content
                         $('#'+name).slideDown(speed);
                         if (name=="contact") map();
                     });
                 }
+
                 return false;
             });
 
         });
 
-        $('.tabs li a').hover(
-            function() {
-                $(this).stop().animate({ marginTop: "-7px" }, 200);
-            },function(){
-                $(this).stop().animate({ marginTop: "0px" }, 300);
-            }
-        );
-        function map(){
-            $('#map').gMap({
-                address: 'Knoxville, TN, USA',
-                zoom: 6,
-                markers: [
-                    { 'address' :'Knoxville, TN, USA' }
-                ]
-            });
-        };
 
-
-        /*var $contactform 	= $('#contactform'),
+        var $contactform 	= $('#contactform'),
         $success		= 'Your message has been sent. Thank you!';
 
         $contactform.submit(function(){
             $.ajax({
                 type: "POST",
-                url: "php/contact.php",
+                url: "php/emailer.php",
                 data: $(this).serialize(),
                 success: function(msg)
                 {
-                    if(msg == 'SEND'){
-                        response = '<div class="success">'+ $success +'</div>';
+                    if(msg == 'sent'){
+                        response = '<div class="success">'+ $success +'</div><br>';
                     }
                     else{
-                        response = '<div class="error">'+ msg +'</div>';
+                        response = '<div class="error">'+ msg +'</div><br>';
                     }
                     // Hide any previous response text
                     $(".error,.success").remove();
@@ -175,7 +179,7 @@
                 }
             });
             return false;
-        });*/
+        });
     </script>
 </body>
 </html>

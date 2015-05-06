@@ -233,7 +233,7 @@
         <!-- Vendevor CRM -->
         <div class="col-sm-6 col-md-4 portfolio-item">
             <h2>Vendevor CRM</h2>
-            <h5>Salesforce.com Replacement</h5>
+            <h5>CRM + Email Tool</h5>
             <p class="dates">June 2014</p>
             <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>
             <div class="details">
@@ -384,7 +384,7 @@
         <!-- POS -->
         <div class="col-sm-6 col-md-4 portfolio-item">
             <h2 class="details">Barnes POS</h2>
-            <div class="portfolio-icon" style="background-image:url(img/i20_logo.png);"></div>
+            <div class="portfolio-icon" style="background-image:url(img/pos_logo.png);"></div>
             <h5>Point-of-Sale System</h5>
             <p class="dates">January 2012-May 2012</p>
             <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>

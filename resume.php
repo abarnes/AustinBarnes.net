@@ -159,7 +159,7 @@
 
         <br>
         <p class="text-center">
-            <a class="btn btn-primary" href="AustinBarnes-Resume.pdf">Download Resume</a>
+            <a class="btn btn-primary" href="AustinBarnes-Resume.pdf" target="_blank">Download Resume</a>
         </p>
 
     </div>
