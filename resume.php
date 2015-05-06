@@ -6,21 +6,39 @@
                 <div class="timelineUnit">
                     <h4>Chief Technology Officer<span class="timelineDate">September 2014 - present</span></h4>
                     <h5>First Centurion Group, inc.</h5>
-                    <p>Responsible for all technical decisions in the company. Primary tasks include managing a small development team to create the company's complete online presence, including product offer pages and main company websites, as well as develop internal applications to streamline business operations and provide useful analytics.</p>
+                    <p>
+                        <em>Online product marketing company launching a workout product line and fitness ecosystem.</em>
+                        <br><br>
+                        Responsible for all technical decisions in the company. Built analytics dashboard to integrate with the company CRM to track revenue, advertising performance, and key operational metrics for company’s $21 million annual revenue stream.
+                        Built payment processing plugin to expand CRM functionality, doubling average cart values.
+                        Managed team of front end developers and a graphic designer in updating and developing new product offer websites and core business websites
+                    </p>
                 </div>
             </li>
             <li>
                 <div class="timelineUnit">
                     <h4>Chief Technology Officer<span class="timelineDate">July 2012 - August 2014</span></h4>
                     <h5>Vendevor</h5>
-                    <p>In charge of software development for Vendevor, including programming the system logic, coordinating and integrating the graphic design and app development, and general technical tasks.  Contributed to business decisions with co-founders.</p>
+                    <p>
+                        <em>All-in-one ecommerce platform to help small businesses easily begin monetize their websites.</em>
+                        <br><br>
+                        Built ecommerce shopping cart platform from the ground up, processing $400k+ for over 9,000 stores.
+                        Co-raised $490k in funding and contributed to core business decisions.
+                        Integrated third-party apps and APIs as well as custom iOS and Android apps, as well as
+                        managed scalable cloud-based infrastructure on Amazon Web Services.
+                        Worked with COO of TransFirst to become a certified Payment Service Provider (PSP).
+                    </p>
                 </div>
             </li>
             <li>
                 <div class="timelineUnit">
                     <h4>Freelance Web Developer<span class="timelineDate">2009 - 2012</span></h4>
                     <h5><br></h5>
-                    <p>Built front and back ends of numerous sites using PHP/MySQL (including CakePHP), HTML/CSS, and Ruby on Rails.  Developed a web-based point of sale system, Barnes Point of Sale Systems, as a side project.</p>
+                    <p>
+                        Built front and back ends of numerous sites using HTML/CSS and MVC frameworks to help pay for college.
+                        Sites built include a wedding RSVP tool, the backend for a Nascar fantasy website, and a lead generation platform.
+                        Developed a web-based point of sale system, Barnes Point of Sale Systems, as a side project.
+                    </p>
                 </div>
             </li>
             <li>
@@ -73,22 +91,47 @@
                     <p>Developed an innovative point of sale system targeted at restaurants and small businesses.  The system is web-based and accessible through any device with a web browser, as well as through smartphone apps.</p>
                 </div>
             </li>
+            <li>
+                <div class="timelineUnit">
+                    <h4>Robert E. Cook Award<span class="timelineDate">2012</span></h4>
+                    <h5>Baylor University</h5>
+                    <p>Recipient of the Robert E. Cook Award for excellence in the field of economics.</p>
+                </div>
+            </li>
+            <li>
+                <div class="timelineUnit">
+                    <h4>Eagle Scout<span class="timelineDate">2004</span></h4>
+                </div>
+            </li>
             <div class="clear"></div>
         </ul>
 
     </div>
     <div class="col-sm-5">
         <h3 class="main-heading"><span>Skills</span></h3>
-        <ul class="skills">
-            <li><h3>Coding</h3></li>
-            <li><h4>PHP+MySQL, CakePHP</h4></li>
-            <li><h4>HTML5</h4></li>
-            <li>CSS+SASS</li>
-            <li>Javascript + jQuery</li>
-            <li>Bootstrap</li>
-            <li>Ruby on Rails</li>
-            <li></li>
+        <ul class="timeline">
+            <li>
+                <div class="timelineUnit">
+                    <h4>Coding & Tech</h4>
+                    <ul>
+                        <li>PHP & SQL</li>
+                        <li>MVC Frameworks - CakePHP & Ruby on Rails</li>
+                        <li>HTML5, CSS & SASS, Bootstrap</li>
+                        <li>Javascript & jQuery</li>
+                        <li>Payment Processing & Ecommerce</li>
+                    </ul>
+
+                    <h4>Server Administration</h4>
+                    <ul>
+                        <li>Linux & LAMP</li>
+                        <li>Amazon Web Services</li>
+                        <li>Analytics Expertise</li>
+                    </ul>
+                </div>
+            </li>
         </ul>
+
+        <br>
 
         <h3 class="main-heading"><span>Languages</span></h3>
         <ul class="skills">
@@ -113,6 +156,11 @@
                 <span class="rat2"></span>
             </li>
         </ul>
+
+        <br>
+        <p class="text-center">
+            <a class="btn btn-primary" href="AustinBarnes-Resume.pdf">Download Resume</a>
+        </p>
 
     </div>
 </div>

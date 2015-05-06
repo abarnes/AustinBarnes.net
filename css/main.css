@@ -5823,7 +5823,8 @@ h3.main-heading {
       height: 116px; }
       @media (min-width: 768px) {
         #nav .tabs li.active {
-          background: url("../img/tab-hover.png") no-repeat; } }
+          background: url("../img/tab-hover.png") no-repeat;
+          background-position: bottom; } }
       #nav .tabs li > a {
         padding-top: 80px;
         width: 75px;
@@ -5895,6 +5896,9 @@ h3.main-heading {
         font-weight: normal;
         padding: 2px 6px;
         float: right; }
+      #resume ul.timeline li .timelineUnit ul {
+        list-style: circle;
+        padding-left: 25px; }
 #resume ul.skills {
   margin-top: 25px;
   overflow: hidden;

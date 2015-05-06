@@ -218,6 +218,7 @@ h3.main-heading {
       @media (min-width: $screen-sm-min) {
         &.active {
           background: url('../img/tab-hover.png') no-repeat;
+          background-position: bottom;
         }
       }
       > a {
@@ -299,6 +300,10 @@ h3.main-heading {
           font-weight: normal;
           padding: 2px 6px;
           float: right;
+        }
+        ul {
+          list-style: circle;
+          padding-left:25px;
         }
       }
     }
