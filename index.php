@@ -54,7 +54,9 @@
                     <div class="photo-inner"><img src="img/photo.jpg" height="186" width="153"></div>
                     <h1>AUSTIN BARNES</h1>
                     <h3>FULL STACK WEB DEVELOPER</h3>
-                    <p>I work with companies to bridge the gap between the business world and the technical world, and enjoy working with start-up companies.</p>
+                    <!--<p>I work with companies to bridge the gap between the business world and the technical world, and enjoy working with start-up companies.</p>-->
+                    <p>Experienced developer and project manager with keen ability to bring together the technical, operational, and business perspectives to work with clients and company executives alike.
+                    </p>
                     <br style="clear:both;">
                 </div>
                 <div class="col-sm-6">

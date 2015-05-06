@@ -5734,26 +5734,47 @@ h3.main-heading {
   #content #profile {
     padding: 25px; }
     #content #profile .photo-inner {
-      float: left;
+      float: none;
+      margin: 0 auto 0 auto;
       background: url(../img/photo-inner.png) no-repeat;
       width: 192px;
       height: 212px;
       padding: 12px 0 0 20px; }
+      @media (min-width: 768px) {
+        #content #profile .photo-inner {
+          float: left;
+          margin: 0; } }
     #content #profile h1 {
+      font-size: 32px;
+      text-align: center;
       font-weight: 900;
       color: #FFF;
       line-height: 34px;
       margin-top: 8px; }
+      @media (min-width: 768px) {
+        #content #profile h1 {
+          text-align: left; } }
+      @media (min-width: 992px) {
+        #content #profile h1 {
+          font-size: 36px; } }
     #content #profile h3 {
+      text-align: center;
       margin-top: 5px;
       font-size: 18px;
       color: #FFF;
       line-height: 18px; }
+      @media (min-width: 768px) {
+        #content #profile h3 {
+          text-align: left; } }
     #content #profile p {
-      font-size: 14px;
+      text-align: center;
+      font-size: 13px;
       margin-top: 15px;
       color: #bc9010;
       line-height: 20px; }
+      @media (min-width: 768px) {
+        #content #profile p {
+          text-align: left; } }
     #content #profile .personal-info {
       float: left;
       width: 310px;
@@ -5903,24 +5924,28 @@ h3.main-heading {
 #portfolio .force-width {
   width: 100% !important; }
 #portfolio .portfolio-item {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 30px; }
   #portfolio .portfolio-item h2, #portfolio .portfolio-item h5 {
     width: 100%; }
   #portfolio .portfolio-item h5 {
     font-weight: 600; }
-  #portfolio .portfolio-item img.portfolio-icon {
+  #portfolio .portfolio-item .portfolio-icon {
     max-width: 290px;
     width: 90%;
+    height: 60px;
     margin-left: auto;
     margin-right: auto;
-    display: block; }
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; }
   #portfolio .portfolio-item.force-width {
     text-align: left; }
     #portfolio .portfolio-item.force-width h2, #portfolio .portfolio-item.force-width h5, #portfolio .portfolio-item.force-width p.dates {
       float: left;
       width: auto;
       clear: left; }
-    #portfolio .portfolio-item.force-width img.portfolio-icon {
+    #portfolio .portfolio-item.force-width .portfolio-icon {
       float: right;
       max-width: 40%; }
   #portfolio .portfolio-item .details {
@@ -5928,6 +5953,10 @@ h3.main-heading {
   #portfolio .portfolio-item div.details {
     clear: both;
     padding: 15px 0 15px; }
+    #portfolio .portfolio-item div.details img.standalone-img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto 0 auto; }
 
 #contact #map {
   height: 300px;

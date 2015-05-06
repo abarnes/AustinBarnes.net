@@ -1,10 +1,11 @@
 <div class="row hidden-block" id="portfolio">
     <h3 class="main-heading"><span>Portfolio</span></h3>
 
+    <!-- Vendevor -->
     <div class="row">
         <div class="col-sm-6 col-md-4 portfolio-item">
             <h2 class="details">Vendevor</h2>
-            <img src="img/vendevor_logo.png" alt="Vendevor Ecommerce Platform" class="portfolio-icon">
+            <div class="portfolio-icon" style="background-image:url(img/vendevor_logo.png);"></div>
             <h5>Ecommerce Platform</h5>
             <p class="dates">July 2012-August 2014</p>
             <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>
@@ -106,9 +107,11 @@
                 </p>
             </div>
         </div>
+
+        <!-- FCG Reports -->
         <div class="col-sm-6 col-md-4 portfolio-item">
             <h2 class="details">FCG Reports</h2>
-            <img src="img/fcg_logo.png" alt="Vendevor Ecommerce Platform" class="portfolio-icon">
+            <div class="portfolio-icon" style="background-image:url(img/fcg_logo.png);"></div>
             <h5>Business Analytics</h5>
             <p class="dates">October 2014-February 2015</p>
             <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>
@@ -184,9 +187,11 @@
                 </div>
             </div>
         </div>
+
+        <!-- DarkOPS -->
         <div class="col-sm-6 col-md-4 portfolio-item">
             <h2 class="details">DarkOPS</h2>
-            <img src="img/darkops_logo.png" alt="DarkOPS Workout Supplements" class="portfolio-icon">
+            <div class="portfolio-icon" style="background-image:url(img/darkops_logo.png);"></div>
             <h5>Workout Supplements</h5>
             <p class="dates">April 2015 - May 2015</p>
             <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>
@@ -224,6 +229,8 @@
                 </p>
             </div>
         </div>
+
+        <!-- Vendevor CRM -->
         <div class="col-sm-6 col-md-4 portfolio-item">
             <h2>Vendevor CRM</h2>
             <h5>Salesforce.com Replacement</h5>
@@ -266,7 +273,7 @@
                             <div class="container">
                                 <div class="carousel-caption">
                                     <p>The Vendevor CRM allows sales people to easily filter leads by a wide range of parameters and log all contact with the lead and other pertinent information.
-                                    <br>(Yes, it's titled "Salesforce can suck it CRM." We were just a little irritated with them...</p>
+                                    <br>(Yes, it's titled "Salesforce can suck it CRM." We were just a tad irritated with our treatment by their staff.)</p>
                                 </div>
                             </div>
                         </div>
@@ -334,6 +341,127 @@
                 </p>
             </div>
         </div>
+
+        <!-- Twitter Stream -->
+        <div class="col-sm-6 col-md-4 portfolio-item">
+            <h2>Twitter Stream</h2>
+            <h5>Marketing Tool</h5>
+            <p class="dates">July 2014</p>
+            <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>
+            <div class="details">
+                <h4>Overview</h4>
+                <p>
+                    When the Vendevor sales team wanted a better way to reach people in need of ecommerce, and especially those frustrated with competitors, I created this simple Twitter live stream tool that will create a list of tweets containing given keywords.
+                    This allows the team to immediately reach out to potential leads as well as save tweets for later review.
+                    <br><br>
+                    Note: Twitter has since changed their rate-limiting to exclude live streaming of high-volume search terms. If you search for a common keyword, you may get an HTTP 420 "enhance your calm" response from Twitter.
+                    <br><br>
+                </p>
+
+                <h4>Technologies Chosen</h4>
+                <p>
+                    <strong>PHP + cURL</strong> - Twitter API requests made through modified PHP code from Mike Pultz<br>
+                    <strong>jQuery</strong> - Simplifies javascript coding and supports CSV export plugin
+                    <br><br>
+                </p>
+
+                <h4>Third-party Integrations</h4>
+                <p>
+                    <strong>Twitter API</strong> - Provides live stream of Tweets
+                    <br><br>
+                </p>
+
+                <h4>Screenshots</h4>
+                <img src="img/screenshots/twitter1.png" class="standalone-img">
+
+                <p class="text-center">
+                    <a href="http://crm.vendevor.com/app/webroot/twitter/" target="_blank" class="btn btn-primary">Visit Site</a>
+                    <a href="https://github.com/abarnes/TwitterStream" target="_blank" class="btn btn-primary">View Code on Github</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- POS -->
+        <div class="col-sm-6 col-md-4 portfolio-item">
+            <h2 class="details">Barnes POS</h2>
+            <div class="portfolio-icon" style="background-image:url(img/i20_logo.png);"></div>
+            <h5>Point-of-Sale System</h5>
+            <p class="dates">January 2012-May 2012</p>
+            <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>
+            <div class="details">
+                <h4>Overview</h4>
+                <p>
+                    The Barnes Point-of-Sale system is designed to dramatically simplify and reduce the costs associated with restaurant POS systems.
+                    By using web-connected devices such as tablets and mobile phones coupled with an internal web server a POS can scale seamlessly with inexpensive hardware and be easily updated and managed.
+                    <br><br>
+                    In 2011, my brother–a mobile app developer–and I began development and created a minimum viable product with a touchscreen-optimized web GUI as well as a complementary Android application.
+                    The system provided a robust administrator interface for tracking hours worked, managing products and tickets, and viewing sales data.
+                    <br><br>
+                    The code later provided a foundation for the Vendevor ecommerce platform and development ceased in 2012. The demo site is no longer online but screenshots can be seen below.
+                    <br><br>
+                </p>
+
+                <h4>Technologies Used</h4>
+                <p>
+                    <strong>CakePHP 1.3 + MySQL</strong> - Rapid development framework easily deployed on internal LAMP servers within restaurants<br>
+                    <strong>Android</strong> - Mobile app provided order recording functionality for servers in a pocket-sized device
+                    <br><br>
+                </p>
+
+                <h4>Screenshots</h4>
+                <img src="img/screenshots/I201.png" class="standalone-img">
+
+                <br>
+
+                <p class="text-center">
+                    <a href="http://i20animal.com/" target="_blank" class="btn btn-primary">Visit Site</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- I20 Animal -->
+        <div class="col-sm-6 col-md-4 portfolio-item">
+            <h2 class="details">I-20 Animal Clinic</h2>
+            <div class="portfolio-icon" style="background-image:url(img/i20_logo.png);"></div>
+            <h5>Veterinary Hospital</h5>
+            <p class="dates">January 2012-May 2012</p>
+            <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>
+            <div class="details">
+                <h4>Overview</h4>
+                <p>
+                    I-20 animal clinic is the largest veterinary in the Dallas/Fort Worth area, and has a website featuring a wealth of pet health information.
+                    I took over maintenance and ongoing development of this site after initial launch and built new sections of the site including a robust administrative portal to perform content management functions and the dynamic "adopt a pet" section.
+                    <br><br>
+                    I have not maintained this site since 2012, but it appears largely unchanged.
+                    <br><br>
+                </p>
+
+                <h4>Technologies Used</h4>
+                <p>
+                    <strong>Ruby on Rails 3.0</strong> - Simplified coding of a basic, custom CRM system<br>
+                    <strong>Heroku</strong> - Well-supported and powerful RoR deployment platform
+                    <br><br>
+                </p>
+
+                <h4>Third-party Integrations</h4>
+                <p>
+                    <strong>Amazon S3</strong> - Integrated file uploading to store dynamic images used on site
+                    <br><br>
+                </p>
+
+                <h4>Screenshots</h4>
+                <img src="img/screenshots/I201.png" class="standalone-img">
+
+                <br>
+
+                <p class="text-center">
+                    <a href="http://i20animal.com/" target="_blank" class="btn btn-primary">Visit Site</a>
+                </p>
+            </div>
+        </div>
+
+
+
     </div>
 </div>
 
