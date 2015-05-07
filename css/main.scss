@@ -292,6 +292,13 @@ h3.main-heading {
           line-height: 18px;
           font-size: 13px;
           color: #999;
+          float:left;
+          clear:both;
+          width:100%;
+          @media (min-width: $screen-sm-min) {
+            width:auto;
+            float:none;
+          }
         }
         p {
           color: #666;
@@ -306,6 +313,7 @@ h3.main-heading {
           font-weight: normal;
           padding: 2px 6px;
           float: right;
+
         }
         ul {
           list-style: circle;
@@ -376,8 +384,12 @@ h3.main-heading {
 
   a.close-link {
     position: absolute;
-    top:45px;
-    right:40px;
+    top:25px;
+    right:20px;
+    @media (min-width: $screen-sm-min) {
+      top:45px;
+      right:40px;
+    }
     font-size:16px;
     cursor: pointer;
     display:none;
@@ -387,10 +399,14 @@ h3.main-heading {
   }
   .portfolio-item {
     text-align: center;
-    padding:30px 0 30px;
+    padding:30px 15px 30px 15px;
+    @media (min-width: $screen-sm-min) {
+      padding:30px 0 30px 0;
+    }
 
     h2, h5 {
       width:100%;
+      line-height: 40px;
     }
     h5 {
       font-weight:600;
@@ -445,7 +461,10 @@ h3.main-heading {
 }
 #contact {
   #map {
-    height: 300px;
+    height: 180px;
+    @media (min-width: $screen-sm-min) {
+      height:300px;
+    }
     margin-bottom:25px;
     width: 100%;
     border-bottom: 1px solid #CCC;

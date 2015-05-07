@@ -5887,7 +5887,14 @@ h3.main-heading {
       #resume ul.timeline li .timelineUnit h5 {
         line-height: 18px;
         font-size: 13px;
-        color: #999; }
+        color: #999;
+        float: left;
+        clear: both;
+        width: 100%; }
+        @media (min-width: 768px) {
+          #resume ul.timeline li .timelineUnit h5 {
+            width: auto;
+            float: none; } }
       #resume ul.timeline li .timelineUnit p {
         color: #666;
         font-size: 12px;
@@ -5946,18 +5953,26 @@ h3.main-heading {
   position: relative; }
   #portfolio a.close-link {
     position: absolute;
-    top: 45px;
-    right: 40px;
+    top: 25px;
+    right: 20px;
     font-size: 16px;
     cursor: pointer;
     display: none; }
+    @media (min-width: 768px) {
+      #portfolio a.close-link {
+        top: 45px;
+        right: 40px; } }
   #portfolio .force-width {
     width: 100% !important; }
   #portfolio .portfolio-item {
     text-align: center;
-    padding: 30px 0 30px; }
+    padding: 30px 15px 30px 15px; }
+    @media (min-width: 768px) {
+      #portfolio .portfolio-item {
+        padding: 30px 0 30px 0; } }
     #portfolio .portfolio-item h2, #portfolio .portfolio-item h5 {
-      width: 100%; }
+      width: 100%;
+      line-height: 40px; }
     #portfolio .portfolio-item h5 {
       font-weight: 600; }
     #portfolio .portfolio-item p.dates {
@@ -5995,11 +6010,14 @@ h3.main-heading {
         margin: 0 auto 0 auto; }
 
 #contact #map {
-  height: 300px;
+  height: 180px;
   margin-bottom: 25px;
   width: 100%;
   border-bottom: 1px solid #CCC;
   border-top: 1px solid #CCC; }
+  @media (min-width: 768px) {
+    #contact #map {
+      height: 300px; } }
 #contact ul {
   float: left;
   margin-left: 11px;
