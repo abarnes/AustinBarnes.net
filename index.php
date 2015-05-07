@@ -1,7 +1,8 @@
 <!--
     =================================
     Thank you for looking at my code!
-    <?php /*-- And thanks for looking at my code on Github --*/ ?>
+
+    <?php /* And thank you for looking at my code on Github */ ?>
 
     This entire site is available on Github at https://github.com/abarnes/AustinBarnes.net
 
@@ -16,7 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Austin Barnes - Professional Web Developer &amp; Entrepreneur</title>
+    <title>Austin Barnes - Knoxville, TN based Full Stack Web Developer</title>
 
     <!-- Bootstrap -->
     <link href="css/main.css" rel="stylesheet">
@@ -55,7 +56,6 @@
                     <div class="photo-inner"><img src="img/photo.jpg" height="186" width="153"></div>
                     <h1>AUSTIN BARNES</h1>
                     <h3>FULL STACK WEB DEVELOPER</h3>
-                    <!--<p>I work with companies to bridge the gap between the business world and the technical world, and enjoy working with start-up companies.</p>-->
                     <p>Experienced developer and project manager with keen ability to bring together the technical, operational, and business perspectives to work with clients and company executives alike.
                     </p>
                     <br style="clear:both;">
@@ -83,11 +83,17 @@
                 </div>
             </div>
 
-            <?php include('resume.php'); ?>
+            <div class="row normal-margins hidden-block" id="resume">
+                <img class="loading" src="img/loading.gif">
+            </div>
 
-            <?php include('portfolio.php'); ?>
+            <div class="row normal-margins hidden-block" id="portfolio">
+                <img class="loading" src="img/loading.gif">
+            </div>
 
-            <?php include('contact.php'); ?>
+            <div class="row normal-margins hidden-block" id="contact">
+                <img class="loading" src="img/loading.gif">
+            </div>
 
         </div>
 

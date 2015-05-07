@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c57f30d-5b42-4def-801c-9afe45d51b29" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resume.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="austin-bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1429759043094" ignored="false" />
     <file path="/Dummy.txt" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430845295825" ignored="false" />
-    <file path="/main.scss" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430964261010" ignored="false" />
+    <file path="/main.scss" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430965445358" ignored="false" />
     <file path="$PROJECT_DIR$/../offers/skin/exclusive-trial-3/config.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1429637813130" ignored="false" />
     <file path="/config.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1429632064532" ignored="false" />
     <file path="$PROJECT_DIR$/../offers/skin/exclusive-trial-3/index.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1429638320066" ignored="false" />
     <file path="$PROJECT_DIR$/../offers/skin/exclusive-trial-3/checkout.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1429637395193" ignored="false" />
     <file path="$PROJECT_DIR$/../offers/extreme4/checkout.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1429737856765" ignored="false" />
     <file path="$PROJECT_DIR$/../offers/skin/exclusive-trial-3/thankyou.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1429638612929" ignored="false" />
-    <file path="/index.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430964590815" ignored="false" />
+    <file path="/index.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430965577028" ignored="false" />
     <file path="/checkout.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1429737823713" ignored="false" />
     <file path="$PROJECT_DIR$/../offers/skin/exclusive-trial-3/css/main.css" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1429633872287" ignored="false" />
     <file path="/main.css" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1429633870208" ignored="false" />
@@ -90,6 +98,9 @@
     <file path="/_variables.scss" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430868766197" ignored="false" />
     <file path="/resume.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430962535496" ignored="false" />
     <file path="/emailer.php" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430944631806" ignored="false" />
+    <file path="/custom.js" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430966851994" ignored="false" />
+    <file path="/contact.html" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430966204064" ignored="false" />
+    <file path="/portfolio.html" changelist="9c57f30d-5b42-4def-801c-9afe45d51b29" time="1430966332041" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +123,7 @@
       <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="403" column="5" selection-start="8305" selection-end="8305" vertical-scroll-proportion="-16.96">
+            <state line="262" column="15" selection-start="5462" selection-end="5462" vertical-scroll-proportion="-14.24">
               <folding />
             </state>
           </provider>
@@ -154,13 +165,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="22" selection-start="603" selection-end="603" vertical-scroll-proportion="0.32967034">
+            <state line="93" column="70" selection-start="4210" selection-end="4210" vertical-scroll-proportion="-12.448979">
               <folding>
                 <element signature="n#style#0;n#br#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="22" selection-start="1215" selection-end="1215" vertical-scroll-proportion="-23.125">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -176,20 +196,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="22" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0">
+            <state line="18" column="49" selection-start="621" selection-end="621" vertical-scroll-proportion="0.28154328">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact.php">
+      <file leaf-file-name="portfolio.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="6" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-18.75">
-              <folding />
+            <state line="559" column="6" selection-start="30507" selection-end="30507" vertical-scroll-proportion="-16.541666">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,36 +226,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="26" selection-start="782" selection-end="782" vertical-scroll-proportion="-15.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resume.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resume.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="47" selection-start="6712" selection-end="6712" vertical-scroll-proportion="-23.416666">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#h4#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#h4#0;n#li#2;n#ul#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#h4#0;n#li#3;n#ul#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#h4#0;n#li#4;n#ul#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portfolio.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="560" column="6" selection-start="32634" selection-end="32634" vertical-scroll-proportion="-34.666668">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -251,8 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/snippets/_carousel_top.php" />
-        <option value="$PROJECT_DIR$/css/bootstrap/_variables.scss" />
         <option value="$PROJECT_DIR$/css/bootstrap/_carousel.scss" />
         <option value="$PROJECT_DIR$/../twitter_stream/stream.php" />
         <option value="$USER_HOME$/Downloads/configure.php" />
@@ -262,11 +257,13 @@
         <option value="$PROJECT_DIR$/../austinbarnes.net template/php/config.php" />
         <option value="$PROJECT_DIR$/emailer.php" />
         <option value="$PROJECT_DIR$/php/emailer.php" />
+        <option value="$PROJECT_DIR$/portfolio.php" />
         <option value="$PROJECT_DIR$/resume.php" />
         <option value="$PROJECT_DIR$/css/main.scss" />
-        <option value="$PROJECT_DIR$/portfolio.php" />
-        <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/portfolio.html" />
+        <option value="$PROJECT_DIR$/js/custom.js" />
       </list>
     </option>
   </component>
@@ -526,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="6" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-18.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../austinbarnes.net template/php/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="4" selection-start="38" selection-end="78" vertical-scroll-proportion="-1.875">
@@ -544,18 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="26" selection-start="782" selection-end="782" vertical-scroll-proportion="-15.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resume.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="47" selection-start="6712" selection-end="6712" vertical-scroll-proportion="-23.416666">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#h4#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#li#2;n#ul#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#li#3;n#ul#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#li#4;n#ul#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,38 +555,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="403" column="5" selection-start="8305" selection-end="8305" vertical-scroll-proportion="-16.96">
+        <state line="262" column="15" selection-start="5462" selection-end="5462" vertical-scroll-proportion="-14.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="70" selection-start="4210" selection-end="4210" vertical-scroll-proportion="-12.448979">
+          <folding>
+            <element signature="n#style#0;n#br#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="22" selection-start="1215" selection-end="1215" vertical-scroll-proportion="-23.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="559" column="6" selection-start="30507" selection-end="30507" vertical-scroll-proportion="-16.541666">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/swipe.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="22" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0">
+        <state line="18" column="49" selection-start="621" selection-end="621" vertical-scroll-proportion="0.28154328">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="560" column="6" selection-start="32634" selection-end="32634" vertical-scroll-proportion="-34.666668">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="603" selection-end="603" vertical-scroll-proportion="0.32967034">
-          <folding>
-            <element signature="n#style#0;n#br#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

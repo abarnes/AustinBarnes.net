@@ -5864,6 +5864,10 @@ h3.main-heading {
   background-color: #ffffff;
   display: none;
   padding: 4%; }
+  .hidden-block img.loader {
+    display: block;
+    margin: 0px auto 0 auto;
+    max-width: 100%; }
 
 #resume ul.timeline {
   padding: 10px 0 0 0; }
