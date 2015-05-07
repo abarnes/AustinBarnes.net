@@ -3,7 +3,7 @@
     Thank you for looking at my code!
     <?php /*-- And thanks for looking at my code on Github --*/ ?>
 
-    This entire site is available on Github at https://github.com/abarnes
+    This entire site is available on Github at https://github.com/abarnes/AustinBarnes.net
 
         -Austin
     =================================
