@@ -422,6 +422,13 @@ h3.main-heading {
       clear:both;
       padding:15px 0 15px;
 
+      h4 {
+        font-weight:600;
+      }
+      p {
+        line-height:1.4em;
+      }
+
       img.standalone-img {
         max-width:100%;
         display: block;

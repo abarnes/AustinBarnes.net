@@ -5981,6 +5981,10 @@ h3.main-heading {
     #portfolio .portfolio-item div.details {
       clear: both;
       padding: 15px 0 15px; }
+      #portfolio .portfolio-item div.details h4 {
+        font-weight: 600; }
+      #portfolio .portfolio-item div.details p {
+        line-height: 1.4em; }
       #portfolio .portfolio-item div.details img.standalone-img {
         max-width: 100%;
         display: block;

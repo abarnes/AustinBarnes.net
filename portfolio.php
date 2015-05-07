@@ -15,7 +15,7 @@
                 <p>
                     Vendevor is an embeddable ecommerce store platform that allows small business owners to easily create their own online stores without the hassle and expense of setting up a traditional e-commerce website.  Vendevor includes payment processing at sign up, so you can start selling in minutes.
                     <br><br>
-                    I was the Chief Technology Officer and sole developer for Vendevor from inception in July 2012 and continued to maintain and expand the platform through August 2014.
+                    I was the Chief Technology Officer and lead developer for Vendevor from inception in July 2012 and continued to maintain and expand the platform through August 2014.
                     In addition to building the core platform, I managed mobile app integrations, worked through the PSP (Payment Service Provider) application to process payments for other businesses, and co-raised $490k in funding.
                     <br><br>
                     We had over 9,000 sign-ups over $400k in processed transactions.  The co-founders and I also won the $25,000 first place prize in the <a href="http://www.baylor.edu/mediacommunications/news.php?action=story&story=128210" target="_blank">Baylor New Venture Competition</a> in 2013.
@@ -129,6 +129,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Technologies Chosen</h4>
                 <p>
                     <strong>CakePHP 3.0 + MySQL</strong> - Streamlines development of heavily database-driven applications & compatible with external PHP libraries.<br>
@@ -137,6 +138,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Third-party Integrations</h4>
                 <p>
                     <strong>Limelight CRM</strong> - Customer & sales data<br>
@@ -146,6 +148,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Screenshots</h4>
                 <div id="fcgreports-carousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -212,6 +215,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Technologies Chosen</h4>
                 <p>
                     <strong>Bootstrap</strong> - Simple responsive framework to facilitate development for the largely-mobile user base<br>
@@ -221,6 +225,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Third-party Integrations</h4>
                 <p>
                     <strong>Limelight CRM</strong> - Customer & sales data<br>
@@ -228,6 +233,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Screenshots</h4>
                 <img src="img/screenshots/dof1.png" class="standalone-img">
 
@@ -260,12 +266,14 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Technologies Chosen</h4>
                 <p>
                     <strong>CakePHP 2.4 + MySQL</strong> - Chosen for robust relational database support & familiarity.<br>
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Third-party Integrations</h4>
                 <p>
                     <strong>Mailgun</strong> - Sent automated emails to leads and integrated "open" and "click" tracking<br>
@@ -324,23 +332,25 @@
             </div>
         </div>
         <div class="col-sm-6 col-md-4 portfolio-item">
-            <h2>Limelight Helper</h2>
+            <h2>Limelight Library</h2>
             <h5>CRM Plugin</h5>
             <p class="dates">December 2014 - March 2015</p>
             <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>
             <div class="details">
                 <h4>Overview</h4>
                 <p>
-                    The Limelight Helper is a simple PHP library build for First Centurion Group that integrates with the Limelight CRM to expand the functionality of the standard Limelight transaction API. This allows simple landing pages to perform more complex actions such as address verification, multiple order placement, and prepaid card handling.
+                    The Limelight CRM library is a simple PHP library built for First Centurion Group that integrates with the Limelight CRM to expand the functionality of the standard Limelight transaction API. This allows simple landing pages to perform more complex actions such as address verification, multiple order placement, and prepaid card handling.
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Technologies Chosen</h4>
                 <p>
                     <strong>PHP + cURL</strong> - Single PHP class provides link between simple landing pages and CRM<br>
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Third-party Integrations</h4>
                 <p>
                     <strong>Limelight CRM</strong> - Transactions are processed through the CRM<br>
@@ -370,6 +380,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Technologies Chosen</h4>
                 <p>
                     <strong>PHP + cURL</strong> - Twitter API requests made through modified PHP code from Mike Pultz<br>
@@ -377,12 +388,14 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Third-party Integrations</h4>
                 <p>
                     <strong>Twitter API</strong> - Provides live stream of Tweets
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Screenshots</h4>
                 <img src="img/screenshots/twitter1.png" class="standalone-img">
 
@@ -413,6 +426,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Technologies Chosen</h4>
                 <p>
                     <strong>CakePHP 1.3 + MySQL</strong> - Rapid development framework easily deployed on internal LAMP servers within restaurants<br>
@@ -420,6 +434,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Screenshots</h4>
                 <img src="img/screenshots/I201.png" class="standalone-img">
 
@@ -448,6 +463,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Technologies Used</h4>
                 <p>
                     <strong>Ruby on Rails 3.0</strong> - Simplified coding of a basic, custom CRM system<br>
@@ -455,12 +471,14 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Third-party Integrations</h4>
                 <p>
                     <strong>Amazon S3</strong> - Integrated file uploading to store dynamic images used on site
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Screenshots</h4>
                 <img src="img/screenshots/I201.png" class="standalone-img">
 
@@ -488,6 +506,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Technologies Chosen</h4>
                 <p>
                     <strong>CakePHP 1.3 + MySQL</strong> - Facilitated development of a database-heavy member management system.<br>
@@ -495,6 +514,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Screenshots</h4>
                 <div id="otk-carousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -539,34 +559,3 @@
 
     </div>
 </div>
-
-<script type="text/javascript">
-    function show_grid() {
-        $('.portfolio-item').removeClass('force-width').show();
-        $('.details,a.close-link').hide();
-        $('a.more-info, .portfolio-hide').show();
-    }
-
-    $(document).ready(function() {
-        $('.portfolio-item a.more-info').click(function(){
-            $('.portfolio-hide').hide();
-            var clicked = $(this).parents('.portfolio-item');
-            clicked.find('.portfolio-icon').hide();
-            $('.portfolio-item').not(clicked).hide(400,function(){
-                clicked.addClass('force-width').find('a.more-info').hide();
-                clicked.find('.details').show(300,function(){
-                    clicked.find('.portfolio-icon').fadeIn(200);
-                    $('a.close-link').fadeIn(200)
-                });
-            });
-        });
-        $('a.close-link').click(function(){$('.tab-portfolio').trigger('click');});
-
-        $(".carousel").swiperight(function() {
-            $(this).carousel('prev');
-        });
-        $(".carousel").swipeleft(function() {
-            $(this).carousel('next');
-        });
-    });
-</script>
