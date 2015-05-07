@@ -139,14 +139,14 @@
                     //animate content block transition
                     $('.hidden-block:visible').slideUp(speed,function(){
                         $('#'+name).slideDown(speed);
-                        if (name=="contact") map();
+                        callbacks(name);
                     });
                 } else {                                    //profile tab is currently open
                     $('#logo').show(speed);
                     $('#profile').slideUp(speed,function(){
                         //show name & tagline above content
                         $('#'+name).slideDown(speed);
-                        if (name=="contact") map();
+                        callbacks(name);
                     });
                 }
 
@@ -154,6 +154,13 @@
             });
 
         });
+
+        //handle tab-specific callbacks when changing tabs
+        function callbacks(name) {
+            if (name=="contact") map();
+            if (name=="portfolio") show_grid();
+            return true;
+        }
 
 
         var $contactform 	= $('#contactform'),

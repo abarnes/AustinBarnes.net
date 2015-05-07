@@ -1,5 +1,6 @@
 <div class="row normal-margins hidden-block" id="portfolio">
-    <h3 class="main-heading"><span>Portfolio</span></h3>
+    <h3 class="main-heading"><span>Featured</span></h3>
+     <a class="close-link" href="javascript:void(0);">Close</a>
 
     <!-- Vendevor -->
     <div class="row">
@@ -25,6 +26,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Technologies Chosen</h4>
                 <p>
                     <strong>CakePHP 2.4 + MySQL</strong> - Streamlines development of heavily database-driven applications & compatible with external PHP libraries.<br>
@@ -34,6 +36,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Third-party Integrations</h4>
                 <p>
                     <strong>Authorize.net</strong> - Payment Procesing<br>
@@ -48,6 +51,7 @@
                     <br><br>
                 </p>
 
+                <hr>
                 <h4>Screenshots</h4>
                 <div id="vendevor-carousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -198,7 +202,7 @@
             <div class="details">
                 <h4>Overview</h4>
                 <p>
-                    DarkOPS provides high-quality workout supplements designed to boost your workout and build muscle faster.
+                    DarkOPS provides high-quality workout supplements designed to boost your workout and build muscle faster. It is a subsidiary of First Centurion Group.
                     <br><br>
                     This site is utilized in online advertising as a way to distribute free samples of the supplements and provide a portal for purchasing additional supplement packages.
                     <br><br>
@@ -224,12 +228,20 @@
                     <br><br>
                 </p>
 
+                <h4>Screenshots</h4>
+                <img src="img/screenshots/dof1.png" class="standalone-img">
+
+                <br>
                 <p class="text-center">
                     <a href="https://darkopsfitness.com/webroot/extreme" target="_blank" class="btn btn-primary">Visit Site</a>
                 </p>
             </div>
         </div>
 
+    </div>
+
+    <h3 class="main-heading portfolio-hide"><span>Other Projects</span></h3>
+    <div class="row">
         <!-- Vendevor CRM -->
         <div class="col-sm-6 col-md-4 portfolio-item">
             <h2>Vendevor CRM</h2>
@@ -386,7 +398,7 @@
             <h2 class="details">Barnes POS</h2>
             <div class="portfolio-icon" style="background-image:url(img/pos_logo.png);"></div>
             <h5>Point-of-Sale System</h5>
-            <p class="dates">January 2012-May 2012</p>
+            <p class="dates">June 2011-May 2012</p>
             <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>
             <div class="details">
                 <h4>Overview</h4>
@@ -401,7 +413,7 @@
                     <br><br>
                 </p>
 
-                <h4>Technologies Used</h4>
+                <h4>Technologies Chosen</h4>
                 <p>
                     <strong>CakePHP 1.3 + MySQL</strong> - Rapid development framework easily deployed on internal LAMP servers within restaurants<br>
                     <strong>Android</strong> - Mobile app provided order recording functionality for servers in a pocket-sized device
@@ -460,21 +472,96 @@
             </div>
         </div>
 
+        <!-- OTK -->
+        <div class="col-sm-6 col-md-4 portfolio-item">
+            <h2 class="details">Order of the Key</h2>
+            <div class="portfolio-icon" style="background-image:url(img/otk_logo.png);"></div>
+            <h5>Honor Society</h5>
+            <p class="dates">March 2012-May 2012</p>
+            <a class="btn btn-primary more-info" href="javascript:void(0);">More Info</a>
+            <div class="details">
+                <h4>Overview</h4>
+                <p>
+                    Order of the Key is a collegiate honor society recognizing academic excellence across the nation and providing scholarship opportunities to members.
+                    <br><br>
+                    I built the backend management system for the honor society administrators to manage members, site content, and available scholarships through an easy-to-use interface.
+                    <br><br>
+                </p>
 
+                <h4>Technologies Chosen</h4>
+                <p>
+                    <strong>CakePHP 1.3 + MySQL</strong> - Facilitated development of a database-heavy member management system.<br>
+                    <strong>Wordpress</strong> - Provided a familiar and widely supported interface for the front-end website
+                    <br><br>
+                </p>
+
+                <h4>Screenshots</h4>
+                <div id="otk-carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#otk-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#otk-carousel" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img class="first-slide" src="img/screenshots/otk1.jpg" alt="Vendevor">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <p>The management console allowed administrators to quickly approve new members and view statistics on membership trends.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="second-slide" src="img/screenshots/otk2.jpg" alt="Vendevor">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <p>In addition to managing members, the admin interface provided a dynamic scholarship posting platform and a way to review scholarship applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#otk-carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#otk-carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 text-center portfolio-hide">
+            <hr>
+            <h4>More projects and code samples are available on <a href="https://github.com/abarnes" target="_blank" class="btn btn-primary">My Github Profile</a></h4>
+        </div>
 
     </div>
 </div>
 
 <script type="text/javascript">
-    $('.portfolio-item a.more-info').click(function(){
-        var clicked = $(this).parents('.portfolio-item');
-        $('.portfolio-item').not(clicked).hide(400,function(){
-            clicked.addClass('force-width').find('a.more-info').hide();
-            clicked.find('.details').show(300);
-        });
-    });
+    function show_grid() {
+        $('.portfolio-item').removeClass('force-width').show();
+        $('.details,a.close-link').hide();
+        $('a.more-info, .portfolio-hide').show();
+    }
 
     $(document).ready(function() {
+        $('.portfolio-item a.more-info').click(function(){
+            $('.portfolio-hide').hide();
+            var clicked = $(this).parents('.portfolio-item');
+            clicked.find('.portfolio-icon').hide();
+            $('.portfolio-item').not(clicked).hide(400,function(){
+                clicked.addClass('force-width').find('a.more-info').hide();
+                clicked.find('.details').show(300,function(){
+                    clicked.find('.portfolio-icon').fadeIn(200);
+                    $('a.close-link').fadeIn(200)
+                });
+            });
+        });
+        $('a.close-link').click(function(){$('.tab-portfolio').trigger('click');});
+
         $(".carousel").swiperight(function() {
             $(this).carousel('prev');
         });

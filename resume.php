@@ -119,6 +119,7 @@
                         <li>HTML5, CSS & SASS, Bootstrap</li>
                         <li>Javascript & jQuery</li>
                         <li>Payment Processing & Ecommerce</li>
+                        <li>GIT Version Control</li>
                     </ul>
 
                     <h4>Server Administration</h4>
